@@ -1,0 +1,9 @@
+[project]
+name = "reprorestore-demo"
+version = "0.1"
+nix_configuration = "github:MaxTulli70/reprorestore"
+
+[[resources]]
+name = "documents"
+path = "data"
+required = true
