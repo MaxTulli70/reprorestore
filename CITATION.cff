@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use ReproRestore in research or infrastructure work, please cite this software."
+title: "ReproRestore"
+type: software
+authors:
+  - name: "ONMAKE S.r.l."
+    website: "https://www.onmake.it"
+repository-code: "https://github.com/MaxTulli70/reprorestore"
+url: "https://github.com/MaxTulli70/reprorestore"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-07-24
+abstract: "An implementation-ready baseline for verifiable, reproducible recovery of stateful internet services on NixOS."
