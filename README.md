@@ -54,6 +54,14 @@ The NGI Fediversity project will turn this baseline into a production-grade, reu
 5. semantic probes and signed machine-readable evidence;
 6. documentation, accessibility, security review and upstream engagement.
 
+## Public review and delivery evidence
+
+- [RFC-0001: Recovery Manifest and Verifiable Restore Evidence](docs/RFC-0001-RECOVERY-MANIFEST.md)
+- [Reproducible v0.1 demo](docs/DEMO.md)
+- [Milestones and acceptance criteria](MILESTONES.md)
+
+Technical feedback is requested on manifest semantics, restore ordering, secret references, evidence requirements, application probes and mappings to existing NixOS or recovery formats. Use the public RFC issue so that proposals and dispositions remain inspectable.
+
 ## Non-goals
 
 ReproRestore is not a hosting control panel, cloud scheduler, backup storage service or complete provider-migration platform. It answers one bounded question: **can the declared service actually be reconstructed from this recovery material in a clean, reproducible environment?**
